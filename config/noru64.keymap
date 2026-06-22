@@ -22,7 +22,8 @@
         ALTF4: ALTF4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(F4)>;
+            bindings = <&kp LA(F4)>, <&macro_press>;
+
             label = "ALTF4";
         };
     };
@@ -54,7 +55,7 @@
 &trans           &kp LA(F4)  &trans  &trans      &trans                &bootloader   &trans        &trans        &trans  &trans   &trans   &trans   &trans           &trans      &bt BT_CLR
 &rgb_ug RGB_TOG  &trans      &trans  &trans              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 1  &bt BT_SEL 0  &trans  &trans   &trans   &trans                    &trans      &trans
 &trans                       &trans  &bt BT_CLR  &none   &trans        &trans        &trans        &trans        &trans  &trans            &trans   &rgb_ug RGB_TOG  &trans      &trans
-&bt BT_CLR       &trans      &mo 2   &trans                            &trans                      &trans                &mo 2    &mo 2             &kp C_VOL_DN     &kp K_MUTE  &kp C_VOLUME_UP
+&bt BT_CLR       &trans      &mo 2   &trans                            &trans                      &trans                &mo 2    &ALTF4            &kp C_VOL_DN     &kp K_MUTE  &kp C_VOLUME_UP
             >;
         };
 
