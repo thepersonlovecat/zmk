@@ -17,5 +17,5 @@
 include:
   - board: noru64_v1_left//zmk
   - board: noru64_v1_right//zmk
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
