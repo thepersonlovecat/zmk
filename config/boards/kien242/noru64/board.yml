@@ -1,0 +1,13 @@
+boards:
+  - name: noru64_v1_left
+    vendor: kien242
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
+  - name: noru64_v1_right
+    vendor: kien242
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
