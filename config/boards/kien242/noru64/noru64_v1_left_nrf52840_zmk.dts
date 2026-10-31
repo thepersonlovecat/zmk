@@ -8,6 +8,10 @@
 #include "noru64_v1_left_pinctrl.dtsi"
 #include <dt-bindings/led/led.h>
 
+zephyr_udc0: &usbd {
+	status = "okay";
+};
+
 / {
 	chosen {
 		zmk,underglow = &led_strip;

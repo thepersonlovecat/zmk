@@ -42,7 +42,7 @@
 };
 
 zephyr_udc0: &usbd {
-	status = "okay";
+	status = "disabled";
 };
 
 &flash0 {
