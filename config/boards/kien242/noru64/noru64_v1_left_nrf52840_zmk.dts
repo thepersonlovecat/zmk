@@ -6,6 +6,7 @@
 
 #include "noru64_v1.dts"
 #include "noru64_v1_left_pinctrl.dtsi"
+#include <dt-bindings/led/led.h>
 
 / {
 	chosen {
