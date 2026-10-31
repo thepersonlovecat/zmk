@@ -1,0 +1,15 @@
+file_format: "1"
+id: noru64
+name: Noru64 V1
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+url: https://github.com/kien242/ZMK-config-split-keyboards/tree/noru64
+siblings:
+  - noru64_v1_left//zmk
+  - noru64_v1_right//zmk
